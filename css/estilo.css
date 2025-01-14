@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Cabecera1*/
+.header{
+    height: 20vh;
+    background-color: #f6f6f6;
+}
+/*Menu*/
+ul{
+    list-style-type: none;
+    background-color: midnightblue;
+    overflow: hidden;
+    
+}
+
+li{
+    float: left;
+    
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    color: #ffff;
+    padding: 14px 16px; 
+}
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.Right{
+    float: right;
+    background-color: brown;
+    color: #ffff;
+    margin-right: 5px;
+}
+/********/
+
+/*Cuerpo*/
+.body{
+    height: 60vh;
+    text-align: center;
+}
+
+
+/*Final*/
+.footer{
+    height: 20vh;
+    background-color: midnightblue;
+    text-align: right;
+}
