@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MainContainer{
+    background-color: aqua;
+    height: 100vh;
+}
+.SecondContainer{
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
+    background-color: bisque;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.FormHeader{
+    text-align: center;
+   padding: 14px;
+}
+.FormHeader span{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.FormBody{
+    margin: auto;
+    padding: 14px;
+}
+.FormBody input[type="text"],input[type="password"]{
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+   
+}
+.FormFooter{
+    position: absolute;
+    background-color: chocolate;
+    padding: 14px;
+    right:  0;
+    bottom: 0;
+    width: 100%;
+}
+.FormFooter input[type="submit"]{
+    padding: 14px 16px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
