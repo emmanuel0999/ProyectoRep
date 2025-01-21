@@ -60,6 +60,9 @@ li a:hover {
 .LeftContainer{
     width: 75%;
 }
+.LeftContainer .card p,h2,h5{
+    padding: 15px;
+}
 
 .fakeimg{
     margin: 0 8px;
