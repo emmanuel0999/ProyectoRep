@@ -5,20 +5,20 @@
 }
 /*Cabecera1*/
 .header{
-    height: 20vh;
-    background-color: #f6f6f6;
+    padding: 40px;
+    background-color: #598392;
+}
+.subHeader{
+    background-color: #124559;
+    overflow: hidden;
 }
 /*Menu*/
 ul{
     list-style-type: none;
-    background-color: midnightblue;
-    overflow: hidden;
-    
 }
 
 li{
     float: left;
-    
 }
 
 li a{
@@ -41,14 +41,43 @@ li a:hover {
 
 /*Cuerpo*/
 .body{
-    height: 60vh;
-    text-align: center;
+    display: table;
+    clear: both;
+    content: "";
+    padding: 3px;
+}
+.Container{
+    float: left;
+    
+}
+.card{
+    background-color: #778da9;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+
+}
+.LeftContainer{
+    width: 75%;
+}
+
+.fakeimg{
+    margin: 0 8px;
+    padding: 5px;
+}
+   
+
+.RightContainer{
+    width: 25%;
+    padding-left: 20px;
 }
 
 
 /*Final*/
 .footer{
-    height: 20vh;
-    background-color: midnightblue;
-    text-align: right;
+  padding: 30px;
+  text-align: center;
+  background: #598392;
+  margin-top: 20px;
+  color: #ffff
 }
