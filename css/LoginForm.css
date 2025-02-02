@@ -63,4 +63,10 @@ input[type="submit"]{
     .SecondContainer{
         width: 30%;
     }
+    .input[type="text"], input[type="submit"], input[type="password"]{
+        
+        padding: 10px 28px;
+        margin: 20px 0;
+        width: 100%;
+    }
 }
