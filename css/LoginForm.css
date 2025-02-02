@@ -53,3 +53,14 @@ input[type="submit"]{
 .Containerimg img{
     border-radius: 50%;
 }
+
+@media screen and (max-width: 600px) {
+    .SecondContainer{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .SecondContainer{
+        width: 30%;
+    }
+}
