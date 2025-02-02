@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ContenedorPrincipal{
+    width: 100vw;
+    height: 100vh;
+}
+.ContenedorFormulario{
+    width:35%;
+    height: 100%;
+    float: left;
+    background-color: #d9fdd3;
+}
+.ContenedorContenido{
+    width: 65%;
+    height: 100%;
+    background-color: #d1e6fa;
+    float: left;
+}
+.formulario{
+    width: 100%;
+    padding: 10px;
+    background-color: #0b77de ;
+}
+.col-25{
+    width: 25%;
+    padding: 5px;
+    float: left;
+    margin-top: 6px;
+}
+.col-75{
+    width: 75%;
+    padding: 5px;
+    float: left;
+    margin-top: 6px;
+}
+
+.col-25 label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #ffff;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+}
