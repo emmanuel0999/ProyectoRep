@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/LoginForm.css">
     <title>Document</title>
+    <script src="../js/LoginForm.js"></script>
 </head>
 <body>
     <div class="MainContainer">
@@ -14,10 +15,16 @@
                 <div class="Containerimg">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRob8DLOgL9kWdJQcaAMTMRT7ZvjgxVoPBt9g&s" alt="Imagen" width="100">
                 </div>
-                <form action="" method="post">          
-                        <input type="text" placeholder="User">
-                        <input type="password" name="" id="" placeholder="Password">
-                        <input type="submit" value="Acceder">                
+                <form id="formulario" method="post" >  
+                        <div>
+                            <label for="txtUser" class="fLabel">Usuario:</label>
+                            <input id="txtUser"  type="text" name="user">
+                        </div>        
+                        <div>
+                            <label for="txtPass" class="fLabel">Clave:</label>
+                            <input type="password" name="pass" id="txtPass">
+                        </div>
+                        <input class="opacity" type="submit" value="Acceder"  disabled>                
                 </form>
             </div>
         </div>
