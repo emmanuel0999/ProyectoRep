@@ -10,6 +10,7 @@
 }
 .sectionTop{
     background-color: green;
+    color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
