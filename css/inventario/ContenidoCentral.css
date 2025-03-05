@@ -1,0 +1,25 @@
+.ContenidoCentral{
+    width: 100%;
+    box-sizing: border-box;
+}
+.Msj-Info{
+    border: 1px solid #ccc;
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+    margin-right: 2.5px;
+}
+.Msj-Info span {
+    display: block;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: burlywood;
+}
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: coral;
+    color: #f0f0f0f0;
+    font-weight: bold;
+}

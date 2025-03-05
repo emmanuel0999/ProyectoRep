@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/inventario/Inventario.css">
+    <link rel="stylesheet" href="/css/inventario/TablaContenido.css">
+    <link rel="stylesheet" href="/css/inventario/ContenidoCentral.css">
     <title>Inventario</title>
 </head>
 <body>
@@ -74,16 +76,92 @@
                         </div>
                     </div>
                     <div class="row">
+                        <input  type="submit" value="Guardar Cambios">
                         <button type="button">Cerrar</button>
-                        <input type="submit" value="Guardar Cambios">
                     </div>
                 </form>
                 
             </div>
         </div>
         <div class="ContenedorContenido">
-            Material
+            <div class="TablaContenido">
+                <h3>Inventario</h3>
+                <br>
+                <table id="customers">
+                    <tr>
+                        <th>ID</th>
+                        <th>NOMBRE</th>
+                        <th>CATEGORIA</th>
+                        <th>CANTIDAD</th>
+                        <th>PROVEEDOR</th>
+                        <th>PRECIO</th>
+                        <th>FECHA INGRESO</th> 
+                        <th>ESTADO</th>
+                        <th>Accion</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="ContenidoCentral">
+                <div class="Msj-Info">
+                    <div class="desc">Bajo stock</div>
+                    <span>Info</span>
+                </div>
+                <div class="Msj-Info">
+                    <div class="desc">Productos vencidos</div>
+                    <span>Info</span>
+                </div>
+                <div class="Msj-Info">
+                    <div class="desc">Productos proximo a vencer</div>
+                    <span>Info</span>
+                </div>
+            </div>
+            
         </div>
     </div>
+
 </body>
 </html>
