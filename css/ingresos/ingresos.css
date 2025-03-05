@@ -1,31 +1,56 @@
 .body{
     margin: 10px;
-    background-color: red;
+    border: 2px solid red;
     display: flex;
-    gap: 5px;
+    gap: 0.3rem;
 
     flex-flow: column nowrap;
 
     height: 100vh;
 }
-.sectionTop{
-    background-color: green;
-    color: #fff;
+
+/*=========== ARRIBA ===========*/
+.secttion_top{
+    border: 2px solid green;
+    margin: 0.5rem;
+    width: 98%;
+    height: 7%;
+}
+
+/*=========== EN MEDIO ===========*/
+.section_center{
+    border: 2px solid blue;
+    height: 45%;
+    margin: 0.5rem;
+
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-.sectionTop button{
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.bodyContainer{
-    background-color: blue;
+    justify-content: space-around;
+    gap: 5rem;
     
 }
+
+.card{
+    border: 2px solid orange;
+    margin: 0.5rem 0.2rem;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.card_title{
+    margin: 0.5rem;
+    text-align: center;
+    border: 2px solid black;
+}
+.card_content{
+    margin: 0.5rem;
+    border: 2px solid black;
+    height: 80%;
+}
+/*=========== DEBAJO ===========*/
+.section_bottom{
+    border: 2px solid yellow;
+    margin: 0.5rem;
+    height: 48%;
+}
+
 
