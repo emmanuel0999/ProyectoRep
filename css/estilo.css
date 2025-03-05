@@ -1,31 +1,30 @@
 
 :root {
-    --primary:#111b54;
-    --light:#ffffff;
-    --grey:#efefef;
-  }
+  --primary:#111b54;
+  --light:#ffffff;
+  --grey:#efefef;
+}
 
-  body { 
-    overflow: hidden;
-    font-family: 'muli',sans-serif;
-    font-weight: 300;
-    color:var(--primary);
-
-
-  }
-  
-  .bg-primary{ background-color: var(--primary) !important ;}
+body { 
+  background: #000;
+  overflow: hidden;
+  font-family: 'muli',sans-serif;
+  font-weight: 300;
+  color:var(--primary);
 
 
+}
+.bg-primary{ background-color: var(--primary) !important ;}
 
-  #sidebar-container{
-    min-height: 100vh;
 
 
-  }
+#sidebar-container{
+  min-height: 100vh;
 
-  #sidebar-container.menu{
-    width: 18rem;
 
-  }
-  
+}
+
+#sidebar-container.menu{
+  width: 18rem;
+
+}
