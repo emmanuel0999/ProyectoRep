@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/Inventario.css">
+    <link rel="stylesheet" href="/ProyectoRep/css/inventario/Inventario.css">
     <title>Inventario</title>
 </head>
 <body>
     <div class="ContenedorPrincipal">
         <div class="ContenedorFormulario">
             <div class="formulario">
+                <!--Formulario para insertar productos-->
                 <form action="">
                     <div class="row">
                         <div class="col-25">
@@ -17,32 +18,6 @@
                         </div>
                         <div class="col-75">
                             <input type="text" id="Iname" name="Nombre">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="IStock">Stock</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="IStock">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="IPrecio">Precio</label>
-                        </div>
-                        <div class="col-75">
-                            <input type="text" id="IPrecio">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="IFabricante">Fabricante</label>
-                        </div>
-                        <div class="col-75">
-                            <select name="" id="IFabricante">
-                                <option value="">...</option>
-                            </select>
                         </div>
                     </div>
                     <div class="row">
@@ -57,11 +32,44 @@
                     </div>
                     <div class="row">
                         <div class="col-25">
+                            <label for="IStock">Stock</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="number" id="IStock">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="IProveedor">Proveedor</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="IProveedor">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="IPrecio">Precio</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="number" id="IPrecio">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="IFIngreso">Fecha de Ingreso</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="date" id="IFIngreso">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
                             <label for="IEstado">Estado</label>
                         </div>
                         <div class="col-75">
                             <select name="" id="IEstado">
-                                <option value="">...</option>
+                                <option value="">Activo</option> 
+                                <option value="">Inactivo</option> 
                             </select>
                         </div>
                     </div>
