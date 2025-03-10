@@ -53,4 +53,17 @@
     height: 48%;
 }
 
+/*=========== Graficos ===========*/
+.graphs{
+    height: 78%;
+    margin: 0 .5rem;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+}
+.graphs img{
+    height: 99%;
+}
+
 
