@@ -28,7 +28,7 @@
     padding: 10px;
     border-radius: 4px;
     background-color: #0b77de;
-    transition: width 2s linear 3s;
+    transition: width 1s linear 1.5s;
 }
 .col-25{
     width: 25%;

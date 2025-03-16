@@ -8,6 +8,7 @@
     width: 33%;
     margin-top: 10px;
     margin-right: 2.5px;
+    transition: width 2s linear 1.5s;
 }
 .Msj-Info span {
     display: block;
@@ -22,4 +23,29 @@
     background-color: coral;
     color: #f0f0f0f0;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1250px){
+    .ContenedorFormulario{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ContenedorContenido{
+        width: 100%;
+        height: auto;
+    }
+    .formulario{
+        width: 50%;
+        
+    }
+}
+
+@media screen and (max-width: 820px){
+    .Msj-Info{
+        width: 100%;
+    }
 }
