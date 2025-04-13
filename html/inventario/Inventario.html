@@ -6,21 +6,24 @@
     <link rel="stylesheet" href="/css/inventario/Inventario.css">
     <link rel="stylesheet" href="/css/inventario/TablaContenido.css">
     <link rel="stylesheet" href="/css/inventario/ContenidoCentral.css">
-    <title>Inventario</title>
+    <link rel="stylesheet" href="/css/inventario/FormulariosCreadosJs.css">
+     <title>Inventario</title>
 </head>
 <body>
     <div class="ContenedorPrincipal">
         <div class="ContenedorFormulario">
+            
             <h3>Adiccion de productos</h3>
-            <div class="formulario">
+            <a id="btnAgregarInventario">Agregar Inventario</a>
+            <div class="formulario ocultar">
                 <!--Formulario para insertar productos-->
-                <form action="">
+                <form action="" id="formulario">
                     <div class="row">
                         <div class="col-25">
-                            <label for="Iname">Nombre</label>
+                            <label for="IName">Nombre</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="Iname" name="Nombre">
+                            <input type="text" id="IName" name="Nombre">
                         </div>
                     </div>
                     <div class="row">
@@ -30,6 +33,9 @@
                         <div class="col-75">
                             <select name="" id="ICategoria">
                                 <option value="">...</option>
+                                <option value="Tecnologia">Tecnologia</option>
+                                <option value="Moda">Moda</option>
+                                
                             </select>
                         </div>
                     </div>
@@ -71,13 +77,14 @@
                         </div>
                         <div class="col-75">
                             <select name="" id="IEstado">
-                                <option value="">Activo</option> 
-                                <option value="">Inactivo</option> 
+                                <option value="">...</option>
+                                <option value="Activo">Activo</option> 
+                                <option value="Inactivo">Inactivo</option> 
                             </select>
                         </div>
                     </div>
                     <div class="row">
-                        <input  type="submit" value="Guardar Cambios">
+                        <input id="btnEnviar" type="submit" value="guardar">
                         <button type="button">Cerrar</button>
                     </div>
                 </form>
@@ -164,5 +171,6 @@
         </div>
     </div>
 
+    <script src="/js/inventario/inventario.js"></script>
 </body>
 </html>

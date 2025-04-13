@@ -1,0 +1,8 @@
+.contenedorMsjVacio{
+    width: 100%;
+    background-color: red;
+    color: #ffff;
+    padding: 5px;
+    margin: 1px;
+    margin-top: 6px;
+}

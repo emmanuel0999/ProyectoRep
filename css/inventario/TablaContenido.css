@@ -21,3 +21,7 @@
     background-color: #04AA6D;
     color: white;
   }
+  .TablaContenido{
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }

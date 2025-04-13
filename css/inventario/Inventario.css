@@ -24,6 +24,7 @@
     float: left;
 }
 .formulario{
+    display: block;
     width: 100%;
     padding: 10px;
     border-radius: 4px;
@@ -85,7 +86,25 @@ button{
 .ContenedorContenido{
     padding: 10px;
 }
-
+#btnAgregarInventario{
+    display: block;
+    background-color: green;
+    padding: 12px 20px;
+    text-decoration: none;
+    width: 200px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0 8px 0;
+    color: white
+}
+#btnAgregarInventario:hover{
+    opacity: 0.6;
+}
+.cerrarForm{
+    background-color: red;
+    
+}
 @media screen and (max-width: 1100px) {
     .col-25, .col-75{
         width: 100%;
@@ -97,5 +116,6 @@ button{
         margin: 0;
         margin-top: 5px;
     }
-    
+
 }
+ 
